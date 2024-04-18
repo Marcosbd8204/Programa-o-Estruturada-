@@ -60,7 +60,20 @@ int main(){
     return 0;
 }
 //Questão 05
+#include <stdio.h>
+#include <stdlib.h>
+
+int main(){
+    char srt[7]="Bananas";
+    int i=0,cont=0;
+    for (i=0;i<7;i++){
+       cont++;
+    }
+    printf("Essa Palavra tem %d número de letras",cont);
+    return 0;
+}
 //Questão 06
+
 //Questão 07
 //Questão 08
 //Questão 09

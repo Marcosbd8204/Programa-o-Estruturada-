@@ -11,7 +11,19 @@ int main(){
     return 0;
 }
 //Questão 02
-udvbfa
+#include <stdio.h>
+#include <stdlib.h>
+
+int main(){
+    char srt[8]="Manivela";
+    int i=0, cont=0;
+    for (i=0;i<8;i++){
+        printf("%c",srt[i]);
+        cont++;
+    }
+    printf("O tamanho dessa string é de %d caracteres.",cont);
+    return 0;
+}
 //Questão 03
 //Questão 04
 //Questão 05

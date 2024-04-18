@@ -73,7 +73,20 @@ int main(){
     return 0;
 }
 //Questão 06
+#include <stdio.h>
+#include <stdlib.h>
 
+int main(){
+    char nome[6]="maria", sexo[1]="f";
+    int i=0, idade=25;
+    
+    if(sexo[1] == "f" && idade<=25){
+        printf("Você foi aceita");
+    }else{
+        printf("Você não foi aceita");
+    }
+    return 0;
+}
 //Questão 07
 //Questão 08
 //Questão 09

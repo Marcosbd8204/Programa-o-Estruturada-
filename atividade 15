@@ -1,1 +1,15 @@
+#include<stdio.h>
+#include<stdlib.h>
+#include<strintg.h>
 
+Struct Produtos{
+char nome;
+int codigo;
+int quantidade;
+float preco;
+}
+
+int main(){
+  
+  return 0;
+}
